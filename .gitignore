@@ -2,8 +2,12 @@
 # Created by httpswww.toptal.comdevelopersgitignoreapijupyternotebooks,python
 # Edit at httpswww.toptal.comdevelopersgitignoretemplates=jupyternotebooks,python
 
-# Ignore data folder
+# data folder
 data
+
+# output folder
+output
+
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
