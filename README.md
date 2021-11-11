@@ -9,7 +9,7 @@
 6. [Organisation within the team](#Organisation_within_the_team)
 7. [Questions for TAs](#Questions_for_TAs)
 
-### Required libraries: numpy, pandas, matplotlib, seaborn, transformers, pytorch, tensorflow, pyarrow
+### Required libraries: numpy, pandas, matplotlib, seaborn, transformers, pytorch, tensorflow, pyarrow, datetime
 If any of the above listed packaged are not installed, please pip install them.
 
 ## Abstract <a name="Abstract"></a>
