@@ -58,11 +58,7 @@ Communication :
 - Every day whatsapp/zulip availability.
 
 Responsibilities for each member : 
-- Ansgar   : 
-- Nearchos : 
-- Santiago :
-- Stephane :
-
-Matters to address : Data cleaning/handling, Topic Filtering, Regression Analysis, Data analysis/exploration, Statistical analysis, Visualization, Data story, 
-
-## Questions for TAs <a name="Questions_for_TAs"></a>
+- Ansgar   : Regression Analysis, Visualization, Data story, 
+- Nearchos : Data cleaning/handling ,Statistical analysis, Visualization, Data story, 
+- Santiago : Topic Filtering, Visualization, Data story, 
+- Stephane : Data analysis/exploration,Visualization, Data story, 
