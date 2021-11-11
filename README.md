@@ -8,7 +8,7 @@
 5. [Repo organization](#Repo_organization)
 5. [Proposed timeline](#Proposed_timeline)
 6. [Organisation within the team](#Organisation_within_the_team)
-7. [Questions for TAs](#Questions_for_TAs)
+
 
 ### Required libraries: numpy, pandas, matplotlib, seaborn, transformers, pytorch, tensorflow, pyarrow, datetime
 If any of the above listed packaged are not installed, please pip install them.
