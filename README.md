@@ -5,6 +5,7 @@
 2. [Research questions](#Research_questions)
 3. [Proposed additional datasets and files](#Proposed_additional_datasets_and_files)
 4. [Methods](#Methods)
+5. [Repo organization](#Repo_organization)
 5. [Proposed timeline](#Proposed_timeline)
 6. [Organisation within the team](#Organisation_within_the_team)
 7. [Questions for TAs](#Questions_for_TAs)
@@ -35,6 +36,13 @@ Earth is experiencing a climate emergency as the climate is currently changing m
 - Regression Analysis  : We will implement logistic regression on the Wikidata speaker's attributes dataset . Based on this analysis we will try to understand the role of their attributes (age, etc.) to their presence in the media concerning the climate change. This step also includes possible hypothesis tests on the parameters to evaluate the significance of the attributes.
 - Statistical Analysis : Besides the regression analysis, we want to obtain summary statistics and distributions. We would like to infer how the overall distribution of quotes per news article has evolved over time (number of quotes per month in th New York Times for example). Further, we visualize the key characteristics that speakers have per news source independent of the topic addressed to get an impression of whether a news source might be biased towards citing people with certain views or characteristics.
 
+## Repo Organization <a name="Repo_organization"></a>
+- `milestone_2.ipynb`: project notebook
+- `helpers`: package with python files defining helper functions
+- `data`: directory containing the data
+- `old`: directory with unused and draft notebooks
+- `output`: output directory (to save results in csv for example)
+
 ## Proposed timeline <a name="Proposed_timeline"></a>
 ### Week 09 (12/11/21 - 18/11/21) : 
 - Load data : Gather Quotebank and Wikidata datasets and extract the desired information.
@@ -56,9 +64,6 @@ Earth is experiencing a climate emergency as the climate is currently changing m
 - Finalize Data story.
 
 ## Organisation within the team <a name="Organisation_within_the_team"></a>
-Communication : 
-- Zoom meetings every Thursday at 20:00.
-- Every day whatsapp/zulip availability.
 
 Responsibilities for each member : 
 - Ansgar   : Regression Analysis, Visualization, Data story, 
