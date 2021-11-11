@@ -9,6 +9,9 @@
 6. [Organisation within the team](#Organisation_within_the_team)
 7. [Questions for TAs](#Questions_for_TAs)
 
+### Required libraries: numpy, pandas, matplotlib, seaborn, transformers, pytorch, tensorflow, pyarrow, datetime
+If any of the above listed packaged are not installed, please pip install them.
+
 ## Abstract <a name="Abstract"></a>
 Earth is experiencing a climate emergency as the climate is currently changing more rapidly than ever. In the scientific world, this has already been established but what about everyone else ? The responsibility to communicate the causes, the consequences but also the means to limit global warming to normal people lies with the media. Our goal is to understand how the media has responded to this crisis by investigating the role of media sources when reporting speakers' opinion by analyzing their quotes. We will examine the quantity of quotes reported over time and their proportion compared to other topics to obtain an estimate of the relevance of the topic at hand. Moreover, we identify key characteristics of speakers in a given media source and compare these characteristics between different news sources. Opinions are shaped daily by the media and therefore we believe holding them accountable when it comes to urgent matters like this is essential. 
 
@@ -58,11 +61,7 @@ Communication :
 - Every day whatsapp/zulip availability.
 
 Responsibilities for each member : 
-- Ansgar   : 
-- Nearchos : 
-- Santiago :
-- Stephane :
-
-Matters to address : Data cleaning/handling, Topic Filtering, Regression Analysis, Data analysis/exploration, Statistical analysis, Visualization, Data story, 
-
-## Questions for TAs <a name="Questions_for_TAs"></a>
+- Ansgar   : Regression Analysis, Visualization, Data story, 
+- Nearchos : Data cleaning/handling ,Statistical analysis, Visualization, Data story, 
+- Santiago : Topic Filtering, Visualization, Data story, 
+- Stephane : Data analysis/exploration,Visualization, Data story, 
