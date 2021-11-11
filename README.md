@@ -39,9 +39,7 @@ Earth is experiencing a climate emergency as the climate is currently changing m
 ## Repo Organization <a name="Repo_organization"></a>
 - `milestone_2.ipynb`: project notebook
 - `helpers`: package with python files defining helper functions
-- `data`: directory containing the data
 - `old`: directory with unused and draft notebooks
-- `output`: output directory (to save results in csv for example)
 - `colab`: contains the google colab notebook template
 
 ## Proposed timeline <a name="Proposed_timeline"></a>
