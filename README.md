@@ -42,6 +42,7 @@ Earth is experiencing a climate emergency as the climate is currently changing m
 - `data`: directory containing the data
 - `old`: directory with unused and draft notebooks
 - `output`: output directory (to save results in csv for example)
+- `colab`: contains the google colab notebook template
 
 ## Proposed timeline <a name="Proposed_timeline"></a>
 ### Week 09 (12/11/21 - 18/11/21) : 
