@@ -6,15 +6,18 @@ class Data:
     def _load_data(self, DATAPATH, polynomial, interactions):
         """
         Function responsible for loading the data.
-        //Empty for the moment -> Depends on the previous form of the data (df, array, json, ...)
         """
-
         self.data = pd.read_pickle(DATAPATH)
 
         cat_columns = self.data.select_dtypes(['category']).columns
         self.data[cat_columns] = self.data[cat_columns].apply(lambda x: x.cat.codes)
-        
-        self.x = self.data.to_numpy()
+        self.tX = self.data.to_numpy()
+        if polynmial :
+            build_polynomial(self,2)
+        if interactions : 
+            build_interactions(self)
+        normalize(self)
+        split_data(self, 80)
         
     def __init__(self, DATAPATH=None, polynomial = False, interactions = False, ):
         
@@ -34,7 +37,7 @@ class Data:
         self.DATAPATH = DATAPATH
         
         if self.DATAPATH:
-            self._load_data(self.DATAPATH)
+            self._load_data(self.DATAPATH,polynomial,interactions)
     
     def build_polynomial(self,degree, add_degree_zero=False):
         """
