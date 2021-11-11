@@ -1,10 +1,20 @@
+import numpy as np
+import pandas as pd
+
 class Data:
     
     def _load_data(self, DATAPATH, polynomial, interactions):
         """
         Function responsible for loading the data.
         //Empty for the moment -> Depends on the previous form of the data (df, array, json, ...)
-        """   
+        """
+
+        self.data = pd.read_pickle(DATAPATH)
+
+        cat_columns = self.data.select_dtypes(['category']).columns
+        self.data[cat_columns] = self.data[cat_columns].apply(lambda x: x.cat.codes)
+        
+        self.x = self.data.to_numpy()
         
     def __init__(self, DATAPATH=None, polynomial = False, interactions = False, ):
         
