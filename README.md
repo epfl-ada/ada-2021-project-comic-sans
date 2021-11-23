@@ -18,12 +18,12 @@ Earth is experiencing a climate emergency as the climate is currently changing m
 
 
 ## Research Questions <a name="Research_questions"></a>
-1. What is the most common profile among the speakers that have talked about the enviroment and climate change ? (speaker level)
-2. Which aspects of a person are more likely to prompt him to make a statement about the enviroment ? (speaker level)
-3. How does the frequency of quotes concerning climate change evolve over time in general and specifically per media source? (time level)
-4. Event studies: How do events such as Conference of the Parties or climate strikes affect the media's interest on our subject ?
+1. What is the most common profile among the speakers that have talked about the enviroment and climate change ? (speaker level) -> Santiago, Stephane
+2. Which aspects of a person are more likely to prompt him to make a statement about the enviroment ? (speaker level) -> 
+3. How does the frequency of quotes concerning climate change evolve over time in general and specifically per media source? (time level) 
+4. Event studies: How do events such as Conference of the Parties or climate strikes affect the media's interest on our subject ? (time level) -> 
 5. What is the magnitude of the presence of enviromental quotes compared to other significant topics ?
-6. What are some differences concerning the representation of the climate change from one media to another ? 
+6. What are some differences concerning the representation of the climate change from one media to another ? -> Ansgar, Nearchos
 
 ## Proposed additional datasets and files <a name="Proposed_additional_datasets_and_files"></a>
 - Wikidata : Will be used to obtain information about the speakers. Since we are only interested in quotes submitted between 2015 and 2020 speakers over some age will be eliminated. Eventually, only a few of their attributes will be retained (gender, religion, education, party, nationality and age will be derived based on their date of birth). Finally, we will also add a feature indicating if the speakers have expressed their views regarding our topic or not.
