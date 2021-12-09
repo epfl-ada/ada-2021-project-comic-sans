@@ -3,7 +3,8 @@
 # Edit at httpswww.toptal.comdevelopersgitignoretemplates=jupyternotebooks,python
 
 # data folder
-data
+data/Quotebank
+data/project_datasets
 
 # output folder
 output
