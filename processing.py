@@ -3,6 +3,8 @@ This is a file cointaing functions to help us process the datasets
 """
 from tld import get_tld
 import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 import os
 from tld import get_tld
 
@@ -54,3 +56,45 @@ def set_domains(urls):
         tld = get_domain(url)
         domains.append(tld)
     return domains
+
+def check_domain(domains, media):
+    """
+    This function checks if a media domain (string) is in given domains (list of strings)
+    
+    inputs
+        domain : Quotebank column containing the domains of the quotes
+        media : Specific media source eg. "nytimes"
+    output
+        Bool : Is the media in the given domains (True) or not (False) 
+    """
+    return media in domains
+
+def subcategorybar(X, vals, colors_, media, width=0.8):
+    """
+    This function is meant to plot a bar plot with different values (vals) for the same categorical variables (X). 
+    It was designed with intention to plot the percentage of quotes about among certain topics for a specific media 
+    and compare them with the overall percentages
+    
+    inputs
+        X : Names of categorical variables (list of strings)
+        vals : Different values for each categorical variable (list of list of ints)
+        media : Name of the media for which the bar plot is designed
+        width : Width of each bar
+    
+    ouputs
+        Plots the desired graph
+    """
+    n = len(vals)
+    _X = np.arange(len(X))
+    colors = []
+    for key in colors_:
+        colors.append(colors_[key])
+    for i in range(n):
+        plt.bar(_X - width/2. + i/float(n)*width, vals[i]/vals[i].sum(), 
+                width=width/float(n), align="edge", color = colors[i])   
+    plt.xticks(_X, X)        
+    labels = list(colors_.keys())
+    handles = [plt.Rectangle((0,0),1,1, color=colors_[label]) for label in labels]
+    plt.legend(handles, labels)
+    title = "Topic distribution comparison for " + media
+    plt.title(title)
