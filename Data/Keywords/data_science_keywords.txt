@@ -1,0 +1,141 @@
+AngularJS
+artificial intelligence
+backpropagation
+Bayes' Theorem
+Bayesian network
+Big Data
+binomial distribution
+chi-square test
+classification
+clustering
+computational linguistics
+continuous variable
+correlation
+covariance
+cross-validation
+D3
+data engineer
+data mining
+data science
+data structure
+data wrangling
+decision trees
+deep learning
+dependent variable
+dimension reduction
+discrete variable
+econometrics
+feature engineering
+gradient boosting
+gradient descent
+histogram
+independent variable
+JavaScript
+k-means clustering
+k-nearest neighbors
+latent variable
+linear regression
+logistic regression
+machine learning
+Markov Chain
+Monte Carlo method
+moving average
+n-gram
+naive Bayes classifier
+neural network
+normal distribution
+NoSQL
+objective function
+outlier
+overfitting
+P value
+PageRank
+perceptron
+pivot table
+predictive analytics
+predictive modeling
+principal component analysis
+random forestregression
+reinforcement learning
+S curve
+spatiotemporal data
+SPSSSQL
+stratified sampling
+supervised learning
+support vector machine
+Tableau
+time series data
+UIMA
+unsupervised learning
+Weka
+Big data
+Database
+Data warehouse
+Regression
+Data analysis
+Data engineering
+Data journalism
+Data visualisation
+Quantitative analysis
+Data exploration 
+Data mining
+Data pipelines
+Data wrangling
+Web scraping
+Feature engineering
+Feature selection
+Adam optimisation 
+Model accuracy
+Apache spark
+Autoregression
+Binary variable
+Bootstrapping
+Categorical variable
+Computer vision
+Natural language processing
+Cost function
+Loss function
+Cross validation
+Data transformation
+Dataset
+Dbscan
+Decision tree
+Dimensionality reduction
+Dplyr
+Dummy variable
+Feature hashing
+Feature reduction
+Feature selection
+Ggplot2
+Hadoop
+Hidden Markov model
+Holdout sample
+Hyperparameter
+K-means
+keras
+Labeled data
+Regression
+Log loss
+Mahout
+Mapreduce
+Maximum likelihood estimation
+Mlaas
+Multivariate analysis
+Nlp
+Nominal variable
+Numpy
+One hot encoding
+One shot learning
+Apache oozie
+Ordinal variable
+Pre-trained model
+Pytorch
+Roc curve
+Semi-supervised learning
+Smote
+Stochastic gradient descent
+Svm
+Tensorflow
+Transfer learning
+Undercutting
+Univariate analysis
