@@ -48,5 +48,5 @@ There are **4 main notebooks**, one for each research question that deal a bit m
 - Santiago : Research Question 2(?)  
 - Stephane : Research Question 1, Data Cleaning and Processing
 
-### Link to the data
+## Link to the data
 We've grouped all the data used for our analysis in one Google Drive which you can access [here](https://drive.google.com/drive/folders/14G9_lLPwmoQB343QE1sMTtHhNjgqD2am?usp=sharing).
