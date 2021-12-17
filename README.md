@@ -9,21 +9,16 @@
 5. [Proposed timeline](#Proposed_timeline)
 6. [Organisation within the team](#Organisation_within_the_team)
 
-
-### Required libraries: numpy, pandas, matplotlib, seaborn, statsmodels, pytorch, tensorflow, pyarrow, datetime
-[TODO: remove]
-
 ## Abstract <a name="Abstract"></a>
 Earth is experiencing a climate emergency as the climate is currently changing more rapidly than ever. In the scientific world, this has already been established but what about everyone else ? The responsibility to communicate the causes, the consequences but also the means to limit global warming to normal people lies with the media. Our goal is to understand how the media has responded to this crisis by investigating the role of media sources when reporting speakers' opinion by analyzing their quotes. We will examine the quantity of quotes reported over time and their proportion compared to other topics to obtain an estimate of the relevance of the topic at hand. Moreover, we identify key characteristics of speakers in a given media source and compare these characteristics between different news sources. Opinions are shaped daily by the media and therefore we believe holding them accountable when it comes to urgent matters like this is essential. 
 
 
 ## Research Questions <a name="Research_questions"></a>
-1. What is the most common profile among the speakers that have talked about the enviroment and climate change ? (speaker level) -> Santiago, Stephane
-2. Which aspects of a person are more likely to prompt him to make a statement about the enviroment ? (speaker level) -> 
-3. How does the frequency of quotes concerning climate change evolve over time in general and specifically per media source? (time level) 
-4. Event studies: How do events such as Conference of the Parties or climate strikes affect the media's interest on our subject ? (time level) -> 
-5. What is the magnitude of the presence of enviromental quotes compared to other significant topics ?
-4. What are some main characteristics of speakers being quoted about the environment by specific news sources?
+1. What is the most common profile among the speakers that have talked about the enviroment? Which aspects of a person are more likely to prompt him to make a statement about the enviroment? (Speaker level)
+2. How does the frequency of quotes concerning climate change evolve over time in general and specifically per media source? (time level) 
+3. Event studies: How do events such as Conference of the Parties or climate strikes affect the media's interest on our subject ? (time level) -> 
+4. What is the magnitude of the presence of enviromental quotes compared to other significant topics ?
+5. What are some main characteristics of speakers being quoted about the environment by specific news sources?
 
 ## Proposed additional datasets and files <a name="Proposed_additional_datasets_and_files"></a>
 - Wikidata : Will be used to obtain information about the speakers. Since we are only interested in quotes submitted between 2015 and 2020 speakers over some age will be eliminated. Eventually, only a few of their attributes will be retained (gender, religion, education, party, nationality and age will be derived based on their date of birth). Finally, we will also add a feature indicating if the speakers have expressed their views regarding our topic or not.
@@ -48,5 +43,10 @@ There are **4 main notebooks**, one for each research question that deal a bit m
 - Santiago : Research Question 2(?)  
 - Stephane : Research Question 1, Data Cleaning and Processing
 
-## Link to the data
+## Extras
+
+### Link to the data
 We've grouped all the data used for our analysis in one Google Drive which you can access [here](https://drive.google.com/drive/folders/14G9_lLPwmoQB343QE1sMTtHhNjgqD2am?usp=sharing).
+
+### Python Packages
+You can find all the required python packages to run our notebooks in `requirements.txt` found in the root of the project.
