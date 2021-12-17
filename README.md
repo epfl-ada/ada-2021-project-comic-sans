@@ -37,6 +37,8 @@ Earth is experiencing a climate emergency as the climate is currently changing m
 |   README.md
 |   requirements.txt
 |   research_question_1.ipynb
+|   research_question_2.ipynb
+|   research_question_3.ipynb
 |   research_question_4.ipynb
 |   
 +---Data
@@ -58,7 +60,8 @@ Earth is experiencing a climate emergency as the climate is currently changing m
 
 ```
 There are **4 main notebooks**, one for each research question that deal a bit more in depth with the corresponding question. 
-- `research_question_1.ipynb`: Speaker profile analyis.
+- `research_question_1.ipynb`: Speaker data analysis.
+- `research_question_2.ipynb`: Time analysis of the topic of the environment.
 - `research_question_3.ipynb`: Multiple topic analysis in comparison to climate change
 - `research_question_4.ipynb`: News paper specific speaker analysis
 
@@ -68,7 +71,7 @@ There are also the following directories:
 - `helpers`: Directory with file defining helper functions that are used throughout the notebooks for tasks such as extracting the domain from a url.
 
 ## Organisation within the team <a name="Organisation_within_the_team"></a>
-- Stephane : Research question 1 (speakers analysis),Speakers Data Cleaning & Preprocessing & Repo management.
+- Stephane : Research question 1 (speakers analysis), Speakers Data Cleaning & Preprocessing & Repo management.
 - Santiago : Research question 2 (time analysis) and extraction of domains.  
 - Nearchos : Research question 3 (multiple topics analysis), Data Labeling, Keywords Dictionaries
 - Ansgar   : Research question 4 (news source specific speaker analysis), Data Labeling
