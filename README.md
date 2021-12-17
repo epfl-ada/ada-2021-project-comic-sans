@@ -59,7 +59,7 @@ Earth is experiencing a climate emergency as the climate is currently changing m
         speakers_preprocessing.ipynb
 
 ```
-There are **4 main notebooks**, one for each research question that deal a bit more in depth with the corresponding question. 
+There are **4 main notebooks**, one for each research question. We separated them since they were fairly independent, and so that each can deal a bit more in depth with the corresponding research question. 
 - `research_question_1.ipynb`: Speaker data analysis.
 - `research_question_2.ipynb`: Time analysis of the topic of the environment.
 - `research_question_3.ipynb`: Multiple topic analysis in comparison to climate change
