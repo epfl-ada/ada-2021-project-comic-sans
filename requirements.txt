@@ -35,6 +35,7 @@ patsy==0.5.2
 pickleshare==0.7.5
 Pillow==8.4.0
 pip==21.2.2
+plotly==5.4.0
 prompt-toolkit==3.0.24
 pyarrow==4.0.0
 pycparser==2.21
@@ -52,6 +53,7 @@ sip==4.19.13
 six==1.16.0
 statsmodels==0.13.1
 threadpoolctl==3.0.0
+tld==0.12.6
 tornado==6.1
 traitlets==5.1.1
 wcwidth==0.2.5
