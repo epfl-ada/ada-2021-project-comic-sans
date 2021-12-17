@@ -74,7 +74,7 @@ There are also the following directories:
 - Stephane : Research question 1 (speakers analysis), Speakers Data Cleaning & Preprocessing & Repo management.
 - Santiago : Research question 2 (time analysis) and extraction of domains.  
 - Nearchos : Research question 3 (multiple topics analysis), Data Labeling, Keywords Dictionaries
-- Ansgar   : Research question 4 (news source specific speaker analysis), Data Labeling
+- Ansgar   : Research question 4 (news source specific speaker analysis)
 - Everyone : ReadMe, Data Story 
 
 
