@@ -31,8 +31,6 @@ Earth is experiencing a climate emergency as the climate is currently changing m
 - Statistical Analysis : Besides the regression analysis, we want to obtain summary statistics and distributions. Depending on the research question, we use frequency distributions, histograms, line plots and other visualization tools to investigate different variables.
 
 ## Repo Organization <a name="Repo_organization"></a>
-There are **4 main notebooks**, one for each research question that deal a bit more in depth with the corresponding question. 
-
 ```
 |   .gitignore
 |   data_filtering.ipynb
@@ -58,11 +56,14 @@ There are **4 main notebooks**, one for each research question that deal a bit m
         speakers_preprocessing.ipynb
 
 ```
+There are **4 main notebooks**, one for each research question that deal a bit more in depth with the corresponding question. 
+- `research_question_1.ipynb`: Speaker profile analyis.
+- `research_question_3.ipynb`: Multiple topic analysis in comparison to climate change
+
+There are also the following directories:
 - `Data`: Contains keywords and other topic filtering related files.
 - `preprocessing`: Directory preprocessing and cleaning date related notebooks.
 - `helpers`: Directory with file defining helper functions that are used throughout the notebooks for tasks such as extracting the domain from a url.
-- `research_question_1.ipynb`: Speaker profile analyis.
-- `research_question_3.ipynb`: Multiple topic analysis in comparison to climate change
 
 ## Organisation within the team <a name="Organisation_within_the_team"></a>
 - Stephane : Research question 1 (speakers analysis),Speakers Data Cleaning & Preprocessing & Repo management.
