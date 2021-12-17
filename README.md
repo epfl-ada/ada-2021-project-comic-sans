@@ -17,7 +17,7 @@ Earth is experiencing a climate emergency as the climate is currently changing m
 1. What is the most common profile among the speakers that have talked about the enviroment? Which aspects of a person are more likely to prompt him to make a statement about the enviroment? (Speaker level)
 2. How does the frequency of quotes concerning climate change evolve over time in general and specifically per media source? (time level) 
 3. Event studies: How do events such as Conference of the Parties or climate strikes affect the media's interest on our subject ? (time level) -> 
-4. What is the magnitude of the presence of enviromental quotes compared to other significant topics ?
+3. What is the magnitude of the presence of enviromental quotes compared to other significant topics ?
 5. What are some main characteristics of speakers being quoted about the environment by specific news sources?
 
 ## Proposed additional datasets and files <a name="Proposed_additional_datasets_and_files"></a>
@@ -66,10 +66,14 @@ There are **4 main notebooks**, one for each research question that deal a bit m
 -
 
 ## Organisation within the team <a name="Organisation_within_the_team"></a>
-- Ansgar   : Research Question 4, ReadMe
-- Nearchos : Research Question 3(?), Data Labeling
-- Santiago : Research Question 2(?)  
-- Stephane : Speakers Data Cleaning & Preprocessing, Research question 1 (speakers analysis), Data Story & Repo management.
+- Stephane : Research question 1 (speakers analysis),Speakers Data Cleaning & Preprocessing & Repo management.
+- Santiago : Research question 2(?)  
+- Nearchos : Research question 3(multiple topics analysis), Data Labeling, Keywords Dictionaries
+- Ansgar   : Research question 4 
+- Everyone : ReadMe, Data Story 
+
+
+
 
 ## Extras
 
