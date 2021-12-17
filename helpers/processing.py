@@ -69,7 +69,7 @@ def check_domain(domains, media):
     """
     return media in domains
 
-def subcategorybar(X, vals, colors_, media, width=0.8):
+def subcategorybar(X, vals, colors_, number_of_figure,media, width=0.8):
     """
     This function is meant to plot a bar plot with different values (vals) for the same categorical variables (X). 
     It was designed with intention to plot the percentage of quotes about among certain topics for a specific media 
@@ -80,10 +80,10 @@ def subcategorybar(X, vals, colors_, media, width=0.8):
         vals : Different values for each categorical variable (list of list of ints)
         media : Name of the media for which the bar plot is designed
         width : Width of each bar
-    
-    ouputs
+    ouput
         Plots the desired graph
     """
+    plt.subplots(tight_layout=True)
     n = len(vals)
     _X = np.arange(len(X))
     colors = []
@@ -97,4 +97,47 @@ def subcategorybar(X, vals, colors_, media, width=0.8):
     handles = [plt.Rectangle((0,0),1,1, color=colors_[label]) for label in labels]
     plt.legend(handles, labels)
     title = "Topic distribution comparison for " + media
+    xlabel_string = "Figure " + number_of_figure +"."
+    #plt.xlabel(xlabel_string)
     plt.title(title)
+    plt.savefig("topic_distribution.jpg")
+    
+def plot_env_group_percentage(df, attributes_to_plot, interested_attribute):
+    """
+    This function is used to plot the percentage of the quotes related to the environment
+    made by a group of people in comparison to the total quotes made by the same group.
+    
+    inputs 
+        df : Quotebank Dataframe
+        attributes_to_plot : Groups of people that we're interested in
+        interested_attribute : Attribute with which the groups are being formed (eg. nationality)
+        
+    outputs
+        Plots the desired graph
+    """
+    percentages=[]
+    for attribute in attributes_to_plot : 
+        temp =  df[df[interested_attribute].apply(check_domain, args = (attribute,))]
+        percentage = temp[temp.Environment_related ==1].shape[0] / temp.shape[0] * 100
+        percentages.append(percentage)
+    plt.figure(figsize = (2*len(attributes_to_plot),4))  
+    #plt.subplots(tight_layout=True)
+    colors = ["tab:green", "tab:orange", "tab:blue", "tab:red", "tab:purple",
+              "tab:brown" ,"tab:pink" ,"tab:grey", "tab:olive", "tab:cyan"] 
+    plot_total = plt.bar(attributes_to_plot, percentages,ec = "black",color = colors)
+    plt.xlabel("Group of people")
+    plt.ylabel("Percentage (%)")
+    plt.title("Percentage of quotes related with the environment")
+    save_title = interested_attribute + "_percentages.jpg"
+    plt.savefig(save_title)
+    
+def check_qids(qids):
+    """
+    This function is used to determine if the qids for a given quote is 1 or more.
+    
+    inputs
+        qids : List of qids
+    output
+        bool : 1 if the there is only 1 qid, 0 otherwise
+    """
+    return len(qids)==1
