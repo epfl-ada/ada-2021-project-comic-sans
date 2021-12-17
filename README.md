@@ -15,8 +15,7 @@ Earth is experiencing a climate emergency as the climate is currently changing m
 
 ## Research Questions <a name="Research_questions"></a>
 1. What is the most common profile among the speakers that have talked about the enviroment? Which aspects of a person are more likely to prompt him to make a statement about the enviroment? (Speaker level)
-2. How does the frequency of quotes concerning climate change evolve over time in general and specifically per media source? (time level) 
-3. Event studies: How do events such as Conference of the Parties or climate strikes affect the media's interest on our subject ? (time level) -> 
+2. How does the frequency of quotes concerning climate change evolve over time in general and specifically per media source? (time level). Event studies: How do events such as Conference of the Parties or climate strikes affect the media's interest on our subject ? (time level) -> 
 3. What is the magnitude of the presence of enviromental quotes compared to other significant topics ?
 5. What are some main characteristics of speakers being quoted about the environment by specific news sources?
 
