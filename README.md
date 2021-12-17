@@ -51,9 +51,14 @@ Earth is experiencing a climate emergency as the climate is currently changing m
 |           gun_control_keywords.txt
 |           lgbt_keywords.txt
 |           README.md
+|
++---graphs
 |           
 +---helpers
 |       processing.py
+|
++---stashed
+|       speakers_analysis_with_regressions.ipynb
 |       
 \---preprocessing
         speakers_preprocessing.ipynb
@@ -67,8 +72,10 @@ There are **4 main notebooks**, one for each research question. We separated the
 
 There are also the following directories:
 - `Data`: Contains keywords and other topic filtering related files.
+- `graphs`: Directory with several graphs and visualizations of our results.
 - `preprocessing`: Directory preprocessing and cleaning date related notebooks.
 - `helpers`: Directory with file defining helper functions that are used throughout the notebooks for tasks such as extracting the domain from a url.
+- `stashed`: Directory for old notebooks and scrapped ideas (for the interested). Can be safely ignored.
 
 ## Organisation within the team <a name="Organisation_within_the_team"></a>
 - Stephane : Research question 1 (speakers analysis), Speakers Data Cleaning & Preprocessing & Repo management.
