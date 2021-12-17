@@ -78,3 +78,6 @@ We've grouped all the data used for our analysis in one Google Drive which you c
 
 ### Python Packages
 You can find all the required python packages to run our notebooks in `requirements.txt` found in the root of the project.
+
+### Data Story
+To check out our data story for this study go to https://stefnans.github.io/ada-2021-project-data-story/
