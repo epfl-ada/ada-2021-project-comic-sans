@@ -63,7 +63,7 @@ There are **4 main notebooks**, one for each research question that deal a bit m
 - `preprocessing`: Directory preprocessing and cleaning date related notebooks.
 - `helpers`: Directory with file defining helper functions that are used throughout the notebooks for tasks such as extracting the domain from a url.
 - `research_question_1.ipynb`: Speaker profile analyis.
--
+- `research_question_3.ipynb`: Multiple topic analysis in comparison to climate change
 
 ## Organisation within the team <a name="Organisation_within_the_team"></a>
 - Stephane : Research question 1 (speakers analysis),Speakers Data Cleaning & Preprocessing & Repo management.
