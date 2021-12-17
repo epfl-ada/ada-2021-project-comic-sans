@@ -1,4 +1,4 @@
-# Climate change : The media's perspective
+# How green is the media ?
 
 ## Table of Contents
 1. [Abstract](#Abstract)
