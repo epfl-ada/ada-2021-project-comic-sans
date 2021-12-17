@@ -9,6 +9,8 @@ data/project_datasets
 # output folder
 output
 
+old/
+
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks

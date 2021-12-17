@@ -27,21 +27,49 @@ Earth is experiencing a climate emergency as the climate is currently changing m
 
 ## Methods <a name="Methods"></a>
 - Topic Filtering      : A set of keywords is created based on glossaries associated with our topic ( [EPA](https://19january2017snapshot.epa.gov/climatechange/glossary-climate-change-terms_.html), [BBC](https://www.bbc.com/news/science-environment-11833685), [ipcc](https://www.ipcc.ch/sr15/chapter/glossary/)). Based on a bag-of-words we simply go through the quotes and check whether the contains at least one of the words from our bag of words. If that is the case, we label the quote as 'deals with the environemnt' which we encode by a 1.  
+- Exploratory data analysis: We explore the data using aggregations and vizualisations, for example to try and identify the most common features in the speakers that talk about the environment. The main method we used here is: for a certain feature, we calculate the ratio of environmental speakers that possess this feature, divided by the total number of speakers in out dataset that possess this feature. This ratio becomes the main metric with which we measure a speaker's likelihood to speak about the environment.
 - Regression Analysis  : We will implement logistic regression on the Wikidata speaker's attributes dataset . Based on this analysis we will try to understand the role of their attributes (age, etc.) to their presence in the media concerning the climate change. This step also includes possible hypothesis tests on the parameters to evaluate the significance of the attributes.
 - Statistical Analysis : Besides the regression analysis, we want to obtain summary statistics and distributions. Depending on the research question, we use frequency distributions, histograms, line plots and other visualization tools to investigate different variables.
 
 ## Repo Organization <a name="Repo_organization"></a>
-There are **4 main notebooks**, one for each research question that deal a bit more in depth with the corresponding question. We also have a data folder that contains the files that have been created while preprocessing the data and are used for furhter analysis. Moreover, a processing.py file contains some useful functinos that are used throughout the notebooks for tasks such as extracting the domain from a url.
-- `milestone_2.ipynb`: project notebook
-- `helpers`: package with python files defining helper functions
-- `old`: directory with unused and draft notebooks
-- `colab`: contains the google colab notebook template
+There are **4 main notebooks**, one for each research question that deal a bit more in depth with the corresponding question. 
+
+```
+|   .gitignore
+|   data_filtering.ipynb
+|   README.md
+|   requirements.txt
+|   research_question_1.ipynb
+|   
++---Data
+|   |   enviroment_keywords.txt
+|   |   
+|   \---Keywords
+|           brexit_keywords.txt
+|           data_science_keywords.txt
+|           environment_keywords.txt
+|           gun_control_keywords.txt
+|           lgbt_keywords.txt
+|           README.md
+|           
++---helpers
+|       processing.py
+|       
+\---preprocessing
+        speakers_preprocessing.ipynb
+
+```
+- `Data`: Contains keywords and other topic filtering related files.
+- `preprocessing`: Directory preprocessing and cleaning date related notebooks.
+- `helpers`: Directory with file defining helper functions that are used throughout the notebooks for tasks such as extracting the domain from a url.
+- `research_question_1.ipynb`: Speaker profile analyis.
+-
 
 ## Organisation within the team <a name="Organisation_within_the_team"></a>
 - Ansgar   : Research Question 4, ReadMe
 - Nearchos : Research Question 3(?), Data Labeling
 - Santiago : Research Question 2(?)  
-- Stephane : Research Question 1, Data Cleaning and Processing
+- Stephane : Speakers Data Cleaning & Preprocessing, Research question 1 (speakers analysis), Data Story & Repo management.
 
 ## Extras
 
